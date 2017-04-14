@@ -1,4 +1,5 @@
 include terraform.mk
+include bcrypt.mk
 
 CLUSTER ?= demo
 PLATFORM ?= aws
